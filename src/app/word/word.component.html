@@ -1,0 +1,9 @@
+<div>
+    <ul>
+        <li *ngFor="let w of wordsArr">
+            <button (click)="delete(w)">Xóa</button>
+            <br> id: {{w.id}}
+            <br> en: {{w.en}}
+        </li>
+    </ul>
+</div>
